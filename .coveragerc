@@ -1,0 +1,6 @@
+[run]
+source = gosial
+omit = 
+    tests/*
+    autoapp.py
+

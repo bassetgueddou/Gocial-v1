@@ -1,0 +1,65 @@
+# --- Python / Backend ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.env
+*.env
+.env.*
+.venv/
+venv/
+pip-log.txt
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+
+# --- Node / Frontend ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.expo/
+.expo-shared/
+dist/
+build/
+
+# --- React Native / Android ---
+android/app/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/gradle/
+*.apk
+*.aar
+*.iml
+
+# --- React Native / iOS ---
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/*.xcworkspace
+ios/DerivedData/
+
+# --- IDE / Éditeurs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# --- Docker ---
+/volumes/
+*.pid
+docker-compose.override.yml
+
+# --- Divers ---
+*.bak
+*.tmp
+*.log
